@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-text-color);
+}
+
+:root {
+  --primary-text-color: #999999;
+  --secondary-text-color: #ffffff;
+  --primary-title-color: #ffffff;
+  --secondary-title-color: #323232;
+  --accent-color: #4985ff;
+  --sub-title-color: #000000;
+  --bg-color: #f6f6f8;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: var(--primary-text-color);
+  opacity: 0.5;
+  border-bottom: 1px solid #A1A1A1;
+}
+
+.menu-link {
+display: inline-block;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+color: var(--secondary-text-color);
+padding: 40px 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.hero {
+  background-color: var(--primary-text-color);
+  padding-top: 220px;
+  padding-bottom: 335px;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+color: var(--primary-title-color);
+margin-bottom: 20px;
+}
+
+.hero-text {
+  max-width: 829px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin: 0 auto 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  background-color: var(--accent-color);
+  width: 200px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button {
+  margin: 0 auto;
+}
+
+.mobile {
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+}
+
+.mobile-title {
+  color: var(--secondary-title-color);
+  text-align: center;
+  max-width: 739px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.6;
+  
+}
+
+.mobile-text {
+  text-align: center;
+  max-width: 730px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px;
+}
+
+.mobile-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+.mobile-item {
+  max-width: 353px;
+  padding-left: 128px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--sub-title-color);
+}
+
+.mobile-subtitle {
+  margin-bottom: 12px;
+}
+
+.mobile-item-text {
+  font-size: 14px;
+}
+
+.mobile-button {
+  margin-left: auto;
+  margin-right: auto;
+}
