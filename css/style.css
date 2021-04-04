@@ -242,7 +242,6 @@ flex-basis: calc((100% - 104px * 5) / 5);
   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
   padding-top: 100px;
   padding-bottom: 170px;
-  
 }
 
 .services-title {
@@ -270,6 +269,18 @@ flex-basis: calc((100% - 104px * 5) / 5);
 
 .services-text-box {
   padding-top: 30px;
+}
+
+.services-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.services-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 350px;
 }
 
 .services-subtitle {
@@ -334,6 +345,8 @@ margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 
 
