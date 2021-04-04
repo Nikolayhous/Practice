@@ -290,6 +290,22 @@ flex-basis: calc((100% - 104px * 5) / 5);
   padding-bottom: 25px;
 }
 
+
+
+
+
+
+.services-list {
+	display: flex;
+	
+  }
+  
+  .services-item:not(:last-child) {
+	margin-left: 30px;
+          
+  }
+  
+
 /* секция проекы */
 
 .project {
@@ -335,7 +351,9 @@ margin-bottom: 50px;
   margin-left: auto;
 }
 
+/* .slick-arrow{
 
+} */
 
 
 
